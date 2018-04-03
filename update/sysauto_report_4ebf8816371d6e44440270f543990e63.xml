@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of Pension (This Month)</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>Excel</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Pension (This Month)">b82d001a37d96e44440270f543990e5f</report>
+        <report_body><![CDATA[<p>Hi Lisa</p>
+<p>This months data (running weekly on a Monday).</p>
+<p>Regards</p>
+<p>Steve</p>]]></report_body>
+        <report_title>Pensions (This Month)</report_title>
+        <run_as display_value="Steve Hardstaff">91934a9637b8820050579c9953990ef8</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-08-19 14:05:02</run_start>
+        <run_time>1970-01-01 06:30:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2016-08-19 14:06:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ebf8816371d6e44440270f543990e63</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Scheduled Execution of Pension (This Month)</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysauto_report_4ebf8816371d6e44440270f543990e63</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2016-08-19 14:20:39</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>22830a9637b8820050579c9953990ea9</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

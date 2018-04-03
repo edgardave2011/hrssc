@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="impact" table="x_spog_payroll_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 09:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64baf334372502006c522b2943990e0d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 13:22:55</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 09:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acbaf334372502006c522b2943990e0d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 13:22:58</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 09:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24baf334372502006c522b2943990e0e</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 13:24:31</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 09:15:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81faf334372502006c522b2943990e3b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 13:24:31</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <name>x_spog_payroll_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-08-03 09:26:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>50bdeb79dbca4f8063b7dca0ce9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>impact</sys_name>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_choice_x_spog_payroll_application_impact</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-03 09:26:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

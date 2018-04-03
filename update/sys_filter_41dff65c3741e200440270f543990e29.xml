@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_spog_payroll_application">sys_id=eed0bc87dbbb5e0030d17dfcbf9619d2^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="eed0bc87dbbb5e0030d17dfcbf9619d2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2016-08-01 11:34:58</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-08-01 11:30:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41dff65c3741e200440270f543990e29</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_filter_41dff65c3741e200440270f543990e29</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2016-08-01 11:34:58</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <title>mobile</title>
+        <user display_value="Dave Edgar">b773c69637b8820050579c9953990eae</user>
+    </sys_filter>
+</record_update>

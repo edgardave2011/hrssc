@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="4bd677f0372502006c522b2943990e45" sys_domain="global" table="x_spog_payroll_application" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 08:57:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fd677f0372502006c522b2943990e45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_payroll_application" name="x_spog_payroll_application" sys_domain="global" view="Default view">4bd677f0372502006c522b2943990e45</sys_ui_form>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="Default view">27caebfc37e102006c522b2943990ee5</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 08:57:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 10:13:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc58c485372502006c522b2943990e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_payroll_application" name="x_spog_payroll_application" sys_domain="global" view="Default view">4bd677f0372502006c522b2943990e45</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 10:13:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-28 15:19:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2e752d137e502006c522b2943990ed5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_spog_payroll_application" name="x_spog_payroll_application" sys_domain="global" view="Default view">4bd677f0372502006c522b2943990e45</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_spog_payroll_application" sys_domain="global" view="Default view">fee752d137e502006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-28 15:19:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_spog_payroll_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 08:57:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bd677f0372502006c522b2943990e45</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_name>x_spog_payroll_application</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4bd677f0372502006c522b2943990e45</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-28 15:19:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>fge_payroll_email_default_signature</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runScript() {
+	template.print(getSignature());
+}());
+
+
+function getSignature() {
+	var result = "";
+	result += '<div>';
+	result += '<span style="font-family: verdana, geneva;">Kind regards,</span></div>';
+	result += '<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>';
+	result += '<div>';
+	result += '<span style="font-family: verdana, geneva;">HR Shared Service Centre</span>';
+	result += '</div>';
+	result += '<div>';
+	result += '<span style="font-family: verdana, geneva;">Tel: 01481 232303</span></div>';
+	result += '<div>';
+	result += '<span style="font-family: verdana, geneva;">Stores Payroll Customer Service email:  gg.payrollcs@specsavers.com</span>';
+	result += '</div>';
+	result += '<span style="font-family: verdana, geneva;">HRSSC central email:  uk.hr_queries@specsavers.com</span>';
+	result += '</div>';
+	return result;
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-27 14:54:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b5484501376502006c522b2943990edc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>fge_payroll_email_default_signature</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_script_email_b5484501376502006c522b2943990edc</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-07-24 15:49:32</sys_updated_on>
+    </sys_script_email>
+</record_update>

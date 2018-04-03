@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="HR Shared Services" name="HR Shared Services">05613d8cdbb3030063b7dca0ce96193d</category>
+        <collection>x_spog_payroll_application</collection>
+        <condition table="x_spog_payroll_application">payroll_state=open^contact_typeINemail,face_to_ace,fax,telephone^EQ<item endquery="false" field="payroll_state" goto="false" newquery="false" operator="=" or="false" value="open"/>
+            <item endquery="false" field="contact_type" goto="false" newquery="false" operator="IN" or="false" value="email,face_to_ace,fax,telephone"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div><span style="font-family: verdana, geneva;">Dear ${caller.first_name} ${caller.last_name},</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">Thank you for contacting the HR Shared Service Centre team (incl stores payroll).</span></div>
+<div><span style="font-family: verdana, geneva;">This is you request ID ${number}.</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<div><span style="font-family: verdana, geneva;">The details of your enquiry are shown in the table below:</span></div>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<table style="border: 1px solid black; text-align: left; width: 100%;" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Short Description</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${short_description}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Category</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${category}</span></td>
+</tr>
+<tr>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; font-weight: bold; width: 170px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">Sub Category</span></td>
+<td style="border-bottom: 1px solid black; width: 500px; font-size: 10pt; font-family: verdana, geneva;"><span style="font-size: 9pt;">${subcategory}</span></td>
+</tr>
+</tbody>
+</table>
+<div><span style="font-family: verdana, geneva;">&nbsp;</span></div>
+<p>${mail_script:fge_payroll_email_default_signature}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>FGE - Payroll New Request &amp; Unassigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>caller,watch_list</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} - HR Shared Service Centre (New Request)</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-27 14:59:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8e8c501376502006c522b2943990e31</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>FGE - Payroll New Request &amp; Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysevent_email_action_f8e8c501376502006c522b2943990e31</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-01-16 20:24:44</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

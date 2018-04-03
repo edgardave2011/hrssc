@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with display_value="Scheduled Execution of HR - 1 Month Trend - Workload by Assigned to and Sub Category">4712508edbd2a28063b7dca0ce96198e</include_with>
+        <name>Scheduled Execution of HR - This Month's Workload by Assigned to and Sub Category (Bar)</name>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>PDF</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="HR - This Month's Workload by Assigned to and Sub Category (Bar)">cf748ce837696ac4440270f543990e53</report>
+        <report_body/>
+        <report_title/>
+        <run_as display_value="Steve Hardstaff">91934a9637b8820050579c9953990ef8</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2016-10-07 12:51:42</run_start>
+        <run_time>1970-01-01 05:40:00</run_time>
+        <run_type>weekly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2016-10-07 12:51:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a5d49002db56a28063b7dca0ce961972</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Scheduled Execution of HR - This Month's Workload by Assigned to and Sub Category (Bar)</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysauto_report_a5d49002db56a28063b7dca0ce961972</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-02-17 09:07:29</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

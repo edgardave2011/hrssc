@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="received_email" label="Received Email" language="en" table="x_spog_payroll_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>received_email</element>
+            <help/>
+            <hint/>
+            <label>Received Email</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <plural>Received Emails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-10-27 15:53:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cd9a6bf1db064b402ab570d9bf96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Received Email</sys_name>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_payroll_application_received_email_en</sys_update_name>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-10-27 15:53:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

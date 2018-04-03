@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_string_1" label="TEste LUCAS" language="en" table="x_spog_payroll_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>TEste LUCAS</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <plural>TEste LUCASs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-08-06 18:18:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0d475954373d02004ed29c9953990e9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TEste LUCAS</sys_name>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_documentation_x_spog_payroll_application_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-06 18:18:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

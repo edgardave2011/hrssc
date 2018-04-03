@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">headersLIKEgg.techpayroll@specsavers.com^subjectLIKElatest run report^ORsubject=Gateway Registration Notification^ORsubject=Gateway Enrolment Notification^ORsubject=Government Gateway User ID^ORsubject=Reminder - Activation of your IR-PAYE service^EQ<item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="false" value="gg.techpayroll@specsavers.com"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="latest run report"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="=" or="true" value="Gateway Registration Notification"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="=" or="true" value="Gateway Enrolment Notification"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="=" or="true" value="Government Gateway User ID"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="=" or="true" value="Reminder - Activation of your IR-PAYE service"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>HR - gg.techpayroll - Latest run report</name>
+        <order>20</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[current.description = "From: " + email.origemail + "\n\n" + email.body_text;]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2016-11-28 11:05:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db4fe7e64f9be6c019baf9b7c210c7f0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>HR - gg.techpayroll - Latest run report</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysevent_in_email_action_db4fe7e64f9be6c019baf9b7c210c7f0</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-04-10 10:18:14</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <template>contact_type=email^callerDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^impact=4^urgency=4^category=systems_reporting^short_descriptionDYNAMICb637bd21ef3221002841f7f775c0fbb6^payroll_stateDYNAMICclosed^assignment_group=6d8d7411376dc60050579c9953990ec6^work_notes=Auto closed from creation.^subcategory=other_system_reporting^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

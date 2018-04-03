@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Payroll Priority Lookup Rules</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Payroll Priority Lookup Rules</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">c08b20ba372331004ed29c9953990ea3</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7a9e7f0b372dc600dd95db9643990ec3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payroll Priority Lookup Rules</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_wizard_answer_7a9e7f0b372dc600dd95db9643990ec3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2015-08-03 09:17:35</sys_updated_on>
+        <table/>
+        <target_url>x_spog_payroll_priority_lookup_rules.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

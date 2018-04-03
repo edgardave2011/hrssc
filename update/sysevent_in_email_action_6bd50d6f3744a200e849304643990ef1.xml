@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Created 22/06/2016 by Steve Hardstaff
+Handles the emails being forwarded from gg.techpayroll@specsavers.com.</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">headersLIKEgg.techpayroll@specsavers.com^ORrecipients=gg.techpayroll@specsavers.com^EQ<item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="false" value="gg.techpayroll@specsavers.com"/>
+            <item endquery="false" field="recipients" goto="false" newquery="false" operator="=" or="true" value="gg.techpayroll@specsavers.com"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>HR - gg.techpayroll</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[current.description = "From: " + email.origemail + "\n\n" + email.body_text;
+current.received_email = email.origemail;]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2016-06-22 11:58:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bd50d6f3744a200e849304643990ef1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>HR - gg.techpayroll</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysevent_in_email_action_6bd50d6f3744a200e849304643990ef1</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-10-27 16:17:45</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <template>contact_type=email^callerDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^impact=4^urgency=4^category=systems_reporting^short_descriptionDYNAMICb637bd21ef3221002841f7f775c0fbb6^payroll_stateDYNAMICopen^assignment_group=6d8d7411376dc60050579c9953990ec6^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Script created 25/05/2016 by Olivier Sarma (hint of Steve Hardstaff)
+Receives the forwarded iView emails from two users. First user is stated in the script to flag as VIP and second (for everything else) is flagged as general.
+To parse the email using a RegEx worked. It did not work using the Servicenow default of:
+if (email.body.category != undefined)
+current.category = email.body.typeofaction;
+It did not work because the type of action contained "-" and spaces.</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEYour attention is needed on a workflow:^user_id=^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="Your attention is needed on a workflow:"/>
+            <item endquery="false" field="user_id" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>iView Email Rules (FWD)</name>
+        <order>95</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[current.caller = 'iview';
+current.contact_type = 'iview';
+current.opened_by = 'iview';
+current.short_description = email.subject.replace('FW: Your attention is needed on a workflow: ','');
+
+var email_body = email.body_text;
+var toa_key = email_body.match(/^(.*)Type-of-Action \:(.*)$/gm);
+var toa_array = toa_key.toString().split(':');
+
+var er_key = email_body.match(/^(.*)Event Reason \:(.*)$/gm);
+var er_value = er_key.toString().split(':');
+
+current.category = (toa_array[toa_array.length -1]);
+current.subcategory = (er_value[er_value.length - 1]);
+
+if (email.from.toString() === gs.getProperty('x_spog_payroll.inbound_email.vip_user'))  {
+	current.assignment_group.setDisplayValue('Benefits');
+}
+else {
+	current.assignment_group.setDisplayValue('People Administration');
+}
+current.insert();]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2017-05-03 16:30:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00b1dccd37e67608440270f543990e6d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>iView Email Rules (FWD)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysevent_in_email_action_00b1dccd37e67608440270f543990e6d</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-05-04 12:59:51</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <template>descriptionDYNAMIC367bf121ef3221002841f7f775c0fbe2^impact=4^urgency=4^EQ</template>
+        <type>forward</type>
+    </sysevent_in_email_action>
+</record_update>

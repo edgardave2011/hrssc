@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>assigned_to</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2017-03-14 10:43:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c8922930db25be04f2fd7b9dae961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c8922930db25be04f2fd7b9dae961980</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-03-14 10:43:17</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <ui_policy display_value="HRSSC Add Assigned to">5942a57cdbe1be04f2fd7b9dae96190e</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

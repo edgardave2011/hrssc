@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_spog_payroll.ClonePayrollProcess</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ClonePayrollProcess</name>
+        <script><![CDATA[var ClonePayrollProcess = Class.create();
+
+ClonePayrollProcess.prototype = {
+	
+	initialize: function () {
+		
+		this.newPayroll = current;
+		this.payrollID = current.sys_id.toString();
+		
+		this.Payroll_TABLE = "x_spog_payroll_application";
+	},
+	
+	startClone: function () {
+		
+		
+		this.newPayroll.number = global.getNextObjNumberPadded();
+		this.newPayroll.active = true;
+		this.newPayroll.payroll_state = "open";
+		this.newPayroll.state = "open";
+		this.newPayroll.parent = this.payrollID;
+		this.newPayroll.has_child = "false";
+		this.newPayroll.resolved_by = "";
+		this.newPayroll.resolved_at = "";
+		this.newPayroll.work_notes = "Clone ticket created";
+		
+		//lastEntry = this._getLastJournalEntry(this.fcrID, "work_notes");
+		//this.newPayroll.work_notes = lastEntry + "\nTravel Request created via copy of " + this.newPayroll.parent.number;
+
+		current.insert();
+		
+		// Setting redirect to newly created record for Payroll application
+		action.setRedirectURL("x_spog_payroll_application.do?sys_id="+this.newPayroll.sys_id);
+		
+		this._addAttachements();
+		
+		return this.newPayroll;
+	},
+	
+	_addAttachements: function () {
+		if (typeof GlideSysAttachment != "undefined") {
+			GlideSysAttachment.copy(this.Payroll_TABLE, this.payrollID, this.Payroll_TABLE, this.newPayroll.sys_id);
+		} else {
+			Packages.com.glide.ui.SysAttachment.copy(this.Payroll_TABLE, this.payrollID, this.Payroll_TABLE, this.newPayroll.sys_id);
+		}
+	},
+	
+	_getLastJournalEntry: function (parentSysId, fieldName) {
+		
+		var journalRecord = new GlideRecord("sys_journal_field"),
+		result = "";
+		
+		journalRecord.addQuery("element_id", parentSysId);
+		journalRecord.addQuery("element", fieldName);
+		journalRecord.orderByDesc("sys_created_on");
+		journalRecord.query();
+		
+		while (journalRecord.next()) {
+			result += journalRecord.value + "\n\n";
+		}
+		return result;
+	},
+	
+	
+	type: "ClonePayrollProcess"
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-03-21 15:13:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c8ef0e684f0d178021a168d18110c72c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ClonePayrollProcess</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_script_include_c8ef0e684f0d178021a168d18110c72c</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-03-21 15:54:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

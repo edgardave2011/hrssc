@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>FGE - Payroll AutoClose Job</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 01:00:00</run_period>
+        <run_start>2015-07-29 12:37:50</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[(function runJob() {
+
+    var ps = gs.getProperty("x_spog_payroll.autoclose.time"),
+        pn = parseInt(ps),
+        gr;
+
+    // This script automatically closes Payroll records that are resolved
+    // and haven't been updated in the specified number of days.
+    // This number is a property in Payroll Global Properties.
+
+    if (pn > 0) {
+        gr = new GlideRecord("x_spog_payroll_application");
+        gr.addQuery("payroll_state", "resolved");
+        gr.addQuery("sys_updated_on", "<", gs.daysAgoStart(pn));
+        //gr.addQuery("sys_updated_on", "<", gs.minutesAgoEnd(pn));
+        gr.query();
+
+        while (gr.next()) {
+            gr.payroll_state = "closed";
+            gr.comments = gs.getMessage("payroll.auto_close_ticket_message", pn.toString());
+            gr.update();
+        }
+    }
+}());]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-29 12:39:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a37c3aa1376902006c522b2943990efe</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>FGE - Payroll AutoClose Job</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysauto_script_a37c3aa1376902006c522b2943990efe</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-09-10 08:08:55</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

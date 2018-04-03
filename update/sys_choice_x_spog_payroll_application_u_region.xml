@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_region" table="x_spog_payroll_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOG</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dd3cc59371202004ed29c9953990e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+            <value>SOG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SOS</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5d3cc59371202004ed29c9953990e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+            <value>SOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Healthcall</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dd3cc59371202004ed29c9953990e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+            <value>Healthcall</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hearcare</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45d3cc59371202004ed29c9953990e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+            <value>Hearcare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Labs</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dd3cc59371202004ed29c9953990e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+            <value>Labs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_region</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1d3cc59371202004ed29c9953990e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_region</element>
+            <name>x_spog_payroll_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-03 11:19:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>076920553716820050579c9953990e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_region</sys_name>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_choice_x_spog_payroll_application_u_region</sys_update_name>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-03 11:19:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

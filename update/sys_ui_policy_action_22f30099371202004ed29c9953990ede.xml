@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>region</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin.alex</sys_created_by>
+        <sys_created_on>2015-09-03 11:20:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22f30099371202004ed29c9953990ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>region</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_ui_policy_action_22f30099371202004ed29c9953990ede</sys_update_name>
+        <sys_updated_by>admin.alex</sys_updated_by>
+        <sys_updated_on>2015-09-03 11:20:33</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <ui_policy display_value="FGE - TV Regions for Store Users">a8e30099371202004ed29c9953990e98</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

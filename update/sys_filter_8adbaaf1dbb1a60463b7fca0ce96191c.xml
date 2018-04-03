@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sc_task">sys_id=104ad7534f2daa4019baf9b7c210c7fa^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="104ad7534f2daa4019baf9b7c210c7fa"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2016-09-12 08:41:35</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2016-09-12 08:41:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8adbaaf1dbb1a60463b7fca0ce96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_filter_8adbaaf1dbb1a60463b7fca0ce96191c</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2016-09-12 08:41:35</sys_updated_on>
+        <table>sc_task</table>
+        <title>mobile</title>
+        <user display_value="Steve Hardstaff">91934a9637b8820050579c9953990ef8</user>
+    </sys_filter>
+</record_update>

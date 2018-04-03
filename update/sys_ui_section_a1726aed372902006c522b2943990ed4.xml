@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="HR Shared Services" section_id="a1726aed372902006c522b2943990ed4" sys_domain="global" table="x_spog_payroll_application" version="3" view="payroll_self_service">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>d163eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>1563eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller</element>
+            <position>2</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>5563eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>9563eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>4</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>d563eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>5</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>1963eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>5963eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>9963eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>d963eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>9</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>1d63eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>10</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:48:11</sys_created_on>
+            <sys_id>5d63eaed372902006c522b2943990e4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Payroll Activities (filtered)">50e15541376502006c522b2943990e18</sys_ui_formatter>
+            <sys_ui_section caption="HR Shared Services" display_value="HR Shared Services" name="x_spog_payroll_application" sys_domain="global" view="6172e6ad372902006c522b2943990ee6">a1726aed372902006c522b2943990ed4</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-29 10:48:11</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>HR Shared Services</caption>
+            <header>false</header>
+            <name>x_spog_payroll_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-29 10:44:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1726aed372902006c522b2943990ed4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>HR Shared Services</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_ui_section_a1726aed372902006c522b2943990ed4</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-08-10 13:08:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Payroll Self Service" name="payroll_self_service">6172e6ad372902006c522b2943990ee6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

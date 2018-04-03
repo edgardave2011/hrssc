@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_building" label="Building" language="en" table="cmn_location">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_building</element>
+            <help/>
+            <hint/>
+            <label>Building</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <plural>Buildings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin.alex</sys_created_by>
+            <sys_created_on>2015-09-22 13:24:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d1a6de1337ea020050579c9953990ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Building</sys_name>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_documentation_cmn_location_u_building_en</sys_update_name>
+            <sys_updated_by>admin.alex</sys_updated_by>
+            <sys_updated_on>2015-09-22 13:24:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

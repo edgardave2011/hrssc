@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color>#278ECF</color>
+        <color_name display_value="UI14 Chart 01">9bfe8711d7003100fa6c0c12ce61038c</color_name>
+        <display>background-color:#4bd762</display>
+        <element>payroll_state</element>
+        <name>x_spog_payroll_application</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-08-03 08:28:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>22737fc737a142006c522b2943990e7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_spog_payroll_application</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_report_chart_color_22737fc737a142006c522b2943990e7e</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-08-03 08:28:57</sys_updated_on>
+        <value>open</value>
+    </sys_report_chart_color>
+</record_update>

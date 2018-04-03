@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="HRSSC" name="HRSSC">ecc1e322377c820050579c9953990eed</group_id>
+        <report_id display_value="HR - Trend - Workload (After 1 June 2016)">13f76240db2ac3c863b7dca0ce961985</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2017-11-15 21:05:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c638ae40db2ac3c863b7dca0ce9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>13f76240db2ac3c863b7dca0ce961985</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_report_users_groups_c638ae40db2ac3c863b7dca0ce9619e1</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-11-15 21:05:46</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

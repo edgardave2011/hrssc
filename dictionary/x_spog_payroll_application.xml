@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,hasLabels=true" audit="true" extends="task" label="HR Shared Services" max_length="40" name="x_spog_payroll_application" sizeclass="162768" text_index="true" type="collection">
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;email,ref_ac_order_by=first_name" label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="javascript:new global.SpecsaversUserUtils().getUsersByUserType(current.u_caller_type);" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element label="Customer First" sequence="0" value="Customer First"/>
+                <element label="Major Change to T&amp;Cs" sequence="1" value="Major Change to T&amp;Cs"/>
+                <element label="Minor Change to T&amp;Cs" sequence="2" value="Minor Change to T&amp;Cs"/>
+                <element label="Payroll" sequence="3" value="Payroll"/>
+                <element label="Pensions" sequence="4" value="pensions"/>
+                <element label="People Administration" sequence="5" value="people_administration"/>
+                <element label="Systems &amp; Reporting" sequence="6" value="systems_reporting"/>
+                <element label="Terminate Action" sequence="7" value="Terminate Action"/>
+            </choice>
+        </element>
+        <element choice="3" default="open" label="State" max_length="40" name="payroll_state" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="open"/>
+                <element label="In Progress" sequence="1" value="in_progress"/>
+                <element label="Pending" sequence="2" value="pending"/>
+                <element label="Resolved" sequence="3" value="resolved"/>
+                <element label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
+        <element label="Received Email" max_length="100" name="received_email" read_only="true" type="email"/>
+        <element label="Region" max_length="32" name="region" reference="u_tv_regions" type="reference"/>
+        <element label="Resolved At" max_length="40" name="resolved_at" read_only="true" type="glide_date_time"/>
+        <element label="Resolved By" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Responsible Party" max_length="40" name="responsible_party" type="string">
+            <choice>
+                <element label="People Administration" sequence="0" value="people_administration"/>
+                <element label="Benefits" sequence="1" value="benefits"/>
+                <element label="Systems &amp; Reporting" sequence="2" value="systems_reporting"/>
+                <element label="Pensions" sequence="3" value="pensions"/>
+                <element label="Store" sequence="4" value="store"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Sub-Category" max_length="40" name="subcategory" type="string">
+            <choice>
+                <element dependent_value="Major Change to T&amp;Cs" label="Add Recurring Pay Component" sequence="0" value="Add Recurring Pay Component"/>
+                <element dependent_value="Payroll" label="Advances" sequence="0" value="Advances"/>
+                <element dependent_value="Minor Change to T&amp;Cs" label="Change Job" sequence="0" value="Change Job"/>
+                <element dependent_value="people_administration" label="Change of personal info" sequence="0" value="Change of personal info"/>
+                <element dependent_value="Change of Personal Info" label="Change Personal Details" sequence="0" value="Change Personal Details"/>
+                <element dependent_value="Create Leave Request" label="Create Leave Request" sequence="0" value="Create Leave Request"/>
+                <element dependent_value="systems_reporting" label="Epay Queries" sequence="0" value="epay_queries"/>
+                <element dependent_value="Customer First" label="New Store Queries" sequence="0" value="New Store Queries"/>
+                <element dependent_value="Terminate Action" label="Retirement" sequence="0" value="Retirement"/>
+                <element dependent_value="pensions" label="UK Query" sequence="0" value="UK Query"/>
+                <element dependent_value="Major Change to T&amp;Cs" label="Change Job" sequence="1" value="Change Job"/>
+                <element dependent_value="Minor Change to T&amp;Cs" label="Change Personal Details" sequence="1" value="Change Personal Details"/>
+                <element dependent_value="Payroll" label="Court Orders" sequence="1" value="Court Orders"/>
+                <element dependent_value="Terminate Action" label="Death in Service" sequence="1" value="Death in Service"/>
+                <element dependent_value="systems_reporting" label="Eye Care" sequence="1" value="Eye Care"/>
+                <element dependent_value="people_administration" label="Flexible Working" sequence="1" value="flexible_working"/>
+                <element dependent_value="Customer First" label="Other" sequence="1" value="Other"/>
+                <element dependent_value="Major Change to T&amp;Cs" label="Change Broadband" sequence="2" value="Change Broadband"/>
+                <element dependent_value="Minor Change to T&amp;Cs" label="Change Line Manager" sequence="2" value="Change Line Manager"/>
+                <element dependent_value="Payroll" label="Current Month Change" sequence="2" value="Current Month Change"/>
+                <element dependent_value="people_administration" label="Holiday Leave" sequence="2" value="Holiday Leave"/>
+                <element dependent_value="Customer First" label="Post" sequence="2" value="Post"/>
+                <element dependent_value="Terminate Action" label="Redundancy" sequence="2" value="Redundancy"/>
+                <element dependent_value="systems_reporting" label="Reporting Request" sequence="2" value="reporting _request"/>
+                <element dependent_value="Minor Change to T&amp;Cs" label="Change Working Pattern" sequence="3" value="Change Working Pattern"/>
+                <element dependent_value="Major Change to T&amp;Cs" label="Change Working Pattern" sequence="3" value="Change Working Pattern"/>
+                <element dependent_value="Payroll" label="Epay" sequence="3" value="Epay"/>
+                <element dependent_value="Terminate Action" label="Failed Probation" sequence="3" value="Failed Probation"/>
+                <element dependent_value="people_administration" label="iView Queries" sequence="3" value="iView Queries"/>
+                <element dependent_value="Customer First" label="Stage 2 &amp; 4" sequence="3" value="Stage 2 &amp; 4"/>
+                <element dependent_value="systems_reporting" label="Systems Access" sequence="3" value="system_access"/>
+                <element dependent_value="Major Change to T&amp;Cs" label="Change in Hours" sequence="4" value="Change in Hours"/>
+                <element dependent_value="Terminate Action" label="End of Contract" sequence="4" value="End of Contract"/>
+                <element dependent_value="Payroll" label="Guernsey Pensions Query" sequence="4" value="Guernsey Pensions Query"/>
+                <element dependent_value="people_administration" label="Leavers" sequence="4" value="leavers"/>
+                <element dependent_value="systems_reporting" label="Self-Service Access (stores only)" sequence="4" value="self_service_access"/>
+                <element dependent_value="Customer First" label="Tax code issues" sequence="4" value="Tax code issues"/>
+                <element dependent_value="systems_reporting" label="HMRC Queries" sequence="5" value="hmrc_queries"/>
+                <element dependent_value="Payroll" label="Irish Calc" sequence="5" value="Irish Calc"/>
+                <element dependent_value="people_administration" label="Lite Profiles" sequence="5" value="Lite Profiles"/>
+                <element dependent_value="Terminate Action" label="Move to another Legal Entity" sequence="5" value="Move to another Legal Entity"/>
+                <element dependent_value="Customer First" label="SEP Queries" sequence="5" value="SEP Queries"/>
+                <element dependent_value="Payroll" label="Joiners" sequence="6" value="Joiners"/>
+                <element dependent_value="people_administration" label="Maternity / Parental Leave" sequence="6" value="maternity_parental_leave"/>
+                <element dependent_value="systems_reporting" label="Salary Sacrifice Queries" sequence="6" value="salary_sacrifice_queries"/>
+                <element dependent_value="Terminate Action" label="Term with severance agreement" sequence="6" value="Term with severance agreement"/>
+                <element dependent_value="Payroll" label="Leaver" sequence="7" value="Leaver"/>
+                <element dependent_value="people_administration" label="New Starters" sequence="7" value="new_starters"/>
+                <element dependent_value="systems_reporting" label="Other" sequence="7" value="other_system_reporting"/>
+                <element dependent_value="benefits" label="P11D Analysis" sequence="7" value="p11d_analysis"/>
+                <element dependent_value="Terminate Action" label="Resigned – Career Development" sequence="7" value="Resigned – Career Development"/>
+                <element dependent_value="benefits" label="Credit Cards" sequence="8" value="credit_cards"/>
+                <element dependent_value="Payroll" label="Legal/BTS Memo" sequence="8" value="Legal/BTS Memo"/>
+                <element dependent_value="people_administration" label="Offer" sequence="8" value="offer"/>
+                <element dependent_value="Terminate Action" label="Resigned - Other" sequence="8" value="Resigned - Other"/>
+                <element dependent_value="systems_reporting" label="Successful Submission" sequence="8" value="Successful Submission"/>
+                <element dependent_value="Payroll" label="Maternity/Paternity" sequence="9" value="Maternity/Paternity"/>
+                <element dependent_value="benefits" label="Other" sequence="9" value="other"/>
+                <element dependent_value="people_administration" label="Payroll H/O" sequence="9" value="Payroll H/O"/>
+                <element dependent_value="Terminate Action" label="Resigned - Relocation" sequence="9" value="Resigned - Relocation"/>
+                <element dependent_value="systems_reporting" label="Unsuccessful Submission" sequence="9" value="Unsuccessful Submission"/>
+                <element dependent_value="systems_reporting" label="Childcare" sequence="10" value="Childcare"/>
+                <element dependent_value="Payroll" label="Manual Rerun" sequence="10" value="Manual Rerun"/>
+                <element dependent_value="people_administration" label="Probation" sequence="10" value="Probation"/>
+                <element dependent_value="Terminate Action" label="Resigned – Family Reasons" sequence="10" value="Resigned – Family Reasons"/>
+                <element dependent_value="systems_reporting" label="Benefits - P11D Analysis" sequence="11" value="Benefits - P11D Analysis"/>
+                <element dependent_value="Payroll" label="NMW" sequence="11" value="NMW"/>
+                <element dependent_value="people_administration" label="Reference Request" sequence="11" value="Reference Request"/>
+                <element dependent_value="Terminate Action" label="Resigned - Education" sequence="11" value="Resigned - Education"/>
+                <element dependent_value="systems_reporting" label="Benefits - Credit Cards" sequence="12" value="Benefits - Credit Cards"/>
+                <element dependent_value="Terminate Action" label="Dismissed" sequence="12" value="Dismissed"/>
+                <element dependent_value="Payroll" label="P45/P60" sequence="12" value="P45/P60"/>
+                <element dependent_value="people_administration" label="Sick Leave" sequence="12" value="Sick Leave"/>
+                <element dependent_value="systems_reporting" label="Benefits - Other" sequence="13" value="Benefits - Other"/>
+                <element dependent_value="people_administration" label="Other" sequence="13" value="other_people_administration"/>
+                <element dependent_value="Payroll" label="Prior Month Query" sequence="13" value="Prior Month Query"/>
+                <element dependent_value="systems_reporting" label="Find My Shift" sequence="14" value="Find My Shift"/>
+                <element dependent_value="Payroll" label="Sick Note" sequence="14" value="Sick Note"/>
+                <element dependent_value="systems_reporting" label="Ebis" sequence="15" value="Ebis"/>
+                <element dependent_value="Payroll" label="SMP" sequence="15" value="SMP"/>
+                <element dependent_value="systems_reporting" label="New Entity" sequence="16" value="New Entity"/>
+                <element dependent_value="Payroll" label="Staff Loans" sequence="16" value="Staff Loans"/>
+                <element dependent_value="systems_reporting" label="Cycle Scheme" sequence="17" value="Cycle Scheme"/>
+                <element dependent_value="Payroll" label="Other" sequence="17" value="Other"/>
+                <element dependent_value="systems_reporting" label="Iview Requests" sequence="18" value="Iview Requests"/>
+            </choice>
+        </element>
+        <element choice="3" default="corporate" label="Caller Type" max_length="40" name="u_caller_type" type="string">
+            <choice>
+                <element label="Corporate" sequence="0" value="corporate"/>
+                <element label="Store" sequence="1" value="store"/>
+                <element label="Generic Accounts" sequence="2" value="sc_tester"/>
+            </choice>
+        </element>
+        <element label="Received from" max_length="40" name="u_hr_rec_email" type="email"/>
+        <element choice="1" label="Region" max_length="40" name="u_region" type="string">
+            <choice>
+                <element label="SOG" sequence="0" value="SOG"/>
+                <element label="SOS" sequence="1" value="SOS"/>
+                <element label="Healthcall" sequence="2" value="Healthcall"/>
+                <element label="Hearcare" sequence="3" value="Hearcare"/>
+                <element label="Labs" sequence="4" value="Labs"/>
+                <element label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element label="Store Caller Name" max_length="40" name="u_store_caller_name" type="string"/>
+        <element label="TEste LUCAS" max_length="40" name="u_string_1" type="string"/>
+        <element label="VIP" max_length="40" name="u_vip" type="boolean"/>
+    </element>
+</database>

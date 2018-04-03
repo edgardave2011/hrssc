@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Update Payroll Ticket</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include("global.validators");
+
+if (current.getTableName() == "x_spog_payroll_application") {
+	current.comments = "reply from: " + email.origemail + "\n\n" + email.body_text;
+	
+	if (email.subject.toLowerCase().indexOf("please reopen") >= 0) {
+		current.payroll_state = "in_progress";
+		current.work_notes = "The caller did not feel that this issue was resolved";
+	}
+	current.update();
+}]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-27 15:12:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79accd01376502006c522b2943990e98</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update Payroll Ticket</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sysevent_in_email_action_79accd01376502006c522b2943990e98</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-01-17 13:58:12</sys_updated_on>
+        <table>x_spog_payroll_application</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

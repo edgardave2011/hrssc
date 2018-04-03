@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_spog_payroll_priority_lookup_rules">
+    <x_spog_payroll_priority_lookup_rules action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <impact>3</impact>
+        <order>900</order>
+        <priority>2</priority>
+        <sys_class_name>x_spog_payroll_priority_lookup_rules</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-27 09:57:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>73940c45372502006c522b2943990e73</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>900</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>x_spog_payroll_priority_lookup_rules_73940c45372502006c522b2943990e73</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-27 10:07:36</sys_updated_on>
+        <urgency>1</urgency>
+    </x_spog_payroll_priority_lookup_rules>
+</record_update>

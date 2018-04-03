@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-04-03 11:15:38">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>x_spog_payroll.user</read_roles>
+        <roles>user_admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-27 08:11:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf1ce770372502006c522b2943990e65</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HR Shared Services</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_portal_page_cf1ce770372502006c522b2943990e65</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-08-11 12:35:49</sys_updated_on>
+        <title>HR Shared Services</title>
+        <user/>
+        <view>payroll</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="HR Shared Services">cf1ce770372502006c522b2943990e65</page>
+                <summary/>
+                <sys_created_by>admin.lucas</sys_created_by>
+                <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                <sys_id>29147fc737a142006c522b2943990e70</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin.lucas</sys_updated_by>
+                <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">29147fc737a142006c522b2943990e70</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>2114ffc737a142006c522b2943990e3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">29147fc737a142006c522b2943990e70</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>69147fc737a142006c522b2943990e70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>Open Payroll By Priority</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">29147fc737a142006c522b2943990e70</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>a114ffc737a142006c522b2943990e3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>cf1ce770372502006c522b2943990e65</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">29147fc737a142006c522b2943990e70</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>e9147fc737a142006c522b2943990e70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>7624051937a502006c522b2943990e35</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="HR Shared Services">cf1ce770372502006c522b2943990e65</page>
+                <summary/>
+                <sys_created_by>admin.lucas</sys_created_by>
+                <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                <sys_id>ad147fc737a142006c522b2943990e6f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin.lucas</sys_updated_by>
+                <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                <u_fge>false</u_fge>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">ad147fc737a142006c522b2943990e6f</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>61147fc737a142006c522b2943990e70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>59e37fc737a142006c522b2943990e80</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">ad147fc737a142006c522b2943990e6f</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>65147fc737a142006c522b2943990e70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>cf1ce770372502006c522b2943990e65</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">ad147fc737a142006c522b2943990e6f</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:37</sys_created_on>
+                        <sys_id>e1147fc737a142006c522b2943990e70</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:37</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03-08-2015 09:31:37">ad147fc737a142006c522b2943990e6f</portal_section>
+                        <sys_created_by>admin.lucas</sys_created_by>
+                        <sys_created_on>2015-08-03 08:31:36</sys_created_on>
+                        <sys_id>ed147fc737a142006c522b2943990e6f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin.lucas</sys_updated_by>
+                        <sys_updated_on>2015-08-03 08:31:36</sys_updated_on>
+                        <u_fge>false</u_fge>
+                        <value>Payroll Open By State</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

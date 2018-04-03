@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Payroll Global Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin.lucas</sys_created_by>
+        <sys_created_on>2015-07-27 08:25:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed8f67b0372502006c522b2943990eee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payroll Global Properties</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_properties_category_ed8f67b0372502006c522b2943990eee</sys_update_name>
+        <sys_updated_by>admin.lucas</sys_updated_by>
+        <sys_updated_on>2015-07-27 08:25:49</sys_updated_on>
+        <title><![CDATA[<p><b>Global Customization Properties for Payroll Application</b></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=ed8f67b0372502006c522b2943990eee"/>
+</record_update>

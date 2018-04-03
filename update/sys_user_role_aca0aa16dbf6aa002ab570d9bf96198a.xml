@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_spog_payroll.vip_user</name>
+        <suffix>vip_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2016-11-02 14:12:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aca0aa16dbf6aa002ab570d9bf96198a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_spog_payroll.vip_user</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_user_role_aca0aa16dbf6aa002ab570d9bf96198a</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2016-11-02 16:14:17</sys_updated_on>
+    </sys_user_role>
+</record_update>

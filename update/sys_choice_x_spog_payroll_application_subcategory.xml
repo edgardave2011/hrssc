@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_spog_payroll_application" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Major Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add Recurring Pay Component</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:03:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20cc0e1ddb3b92c030d17dfcbf961955</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:13:37</sys_updated_on>
+            <value>Add Recurring Pay Component</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Advances</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7dd1e654dbf3fa84f2fd7b9dae9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:23:43</sys_updated_on>
+            <value>Advances</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Advances</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-10-10 10:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3ba8f7adb9e2a8063b7dca0ce9619ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:21:27</sys_updated_on>
+            <value>Advances</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Major Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Change Employee Details</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:03:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68cc0e1ddb3b92c030d17dfcbf961954</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:13:38</sys_updated_on>
+            <value>Change Employee Details</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Minor Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Job</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:03:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fdcc65ddb3b92c030d17dfcbf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-06-03 07:03:42</sys_updated_on>
+            <value>Change Job</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change of personal info</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:21:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec51e614dbf3fa84f2fd7b9dae9619dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>Change of personal info</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Change of Personal Info</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Personal Details</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:04:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a00d029ddb3b92c030d17dfcbf96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-06-03 07:04:20</sys_updated_on>
+            <value>Change Personal Details</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Create Leave Request</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Create Leave Request</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:04:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d82d869ddb3b92c030d17dfcbf96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-06-03 07:04:52</sys_updated_on>
+            <value>Create Leave Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Dismissed – Conduct, with notice</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab9d0a11db7b92c030d17dfcbf9619df</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Dismissed – Conduct, with notice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epay Queries</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f69e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-06-27 09:24:29</sys_updated_on>
+            <value>epay_queries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Store Queries</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3170aa50dbf3fa84f2fd7b9dae961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>New Store Queries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Payroll</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-08 11:18:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d537f8cbdb7f5e0030d17dfcbf9619b3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>Payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retirement</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f9d0a11db7b92c030d17dfcbf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-06-03 07:06:59</sys_updated_on>
+            <value>Retirement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>pensions</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UK Query</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>0</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a306210dbf3fa84f2fd7b9dae961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:38</sys_updated_on>
+            <value>UK Query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Major Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Job</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:03:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0cc0e1ddb3b92c030d17dfcbf961954</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:13:37</sys_updated_on>
+            <value>Change Job</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Minor Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Personal Details</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:15:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18efdadcdbb3fa84f2fd7b9dae96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:15:09</sys_updated_on>
+            <value>Change Personal Details</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Change to T&amp;C</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-03 11:27:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aab5c859371202004ed29c9953990ef9</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:21:27</sys_updated_on>
+            <value>change_to_tc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Court Orders</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-08-23 08:52:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1edadb70db704fc4f2fd7b9dae961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:52:33</sys_updated_on>
+            <value>Court Orders</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Death in Service</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>639d0a11db7b92c030d17dfcbf9619e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Death in Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Dismissal – capability ill health</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>279d0a11db7b92c030d17dfcbf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Dismissal – capability ill health</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eye Care</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-07-29 10:15:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59c1d3d3dbf0a64463b7fca0ce961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>Eye Care</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flexible Working</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-03 11:29:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66f58099371202004ed29c9953990e4d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>flexible_working</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>1</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd70aa50dbf3fa84f2fd7b9dae961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Major Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Broadband</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:13:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e8f1a9cdbb3fa84f2fd7b9dae9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:13:38</sys_updated_on>
+            <value>Change Broadband</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Minor Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Line Manager</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:15:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94efdadcdbb3fa84f2fd7b9dae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:15:09</sys_updated_on>
+            <value>Change Line Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Current Month Change</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5d1e654dbf3fa84f2fd7b9dae9619df</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:52:33</sys_updated_on>
+            <value>Current Month Change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Dismissal – capability</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a39d0a11db7b92c030d17dfcbf9619e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Dismissal – capability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Holiday Leave</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:21:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6051e614dbf3fa84f2fd7b9dae9619db</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>Holiday Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Payroll</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-03 11:28:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ae54099371202004ed29c9953990e42</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:21:27</sys_updated_on>
+            <value>payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Post</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d70aa50dbf3fa84f2fd7b9dae961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>Post</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Redundancy</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b9d0a11db7b92c030d17dfcbf9619e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Redundancy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reporting Request</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a9e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>reporting _request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Minor Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Working Pattern</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:15:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14efdadcdbb3fa84f2fd7b9dae961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:15:09</sys_updated_on>
+            <value>Change Working Pattern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Major Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change Working Pattern</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:13:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a8f9a9cdbb3fa84f2fd7b9dae96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:13:38</sys_updated_on>
+            <value>Change Working Pattern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Dismissal – conduct no notice</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e79d0a11db7b92c030d17dfcbf9619e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Dismissal – conduct no notice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epay</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-24 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd706ddb37c8c740440270f543990e7e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:52:33</sys_updated_on>
+            <value>Epay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failed Probation</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb9d0a11db7b92c030d17dfcbf9619e2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Failed Probation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>iView Queries</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:21:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e851e614dbf3fa84f2fd7b9dae9619e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>iView Queries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stage 2 &amp; 4</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b970aa50dbf3fa84f2fd7b9dae96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>Stage 2 &amp; 4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Systems Access</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a9e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>system_access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Major Change to T&amp;Cs</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change in Hours</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:13:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a8f9a9cdbb3fa84f2fd7b9dae96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:13:38</sys_updated_on>
+            <value>Change in Hours</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>End of Contract</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>239d0a11db7b92c030d17dfcbf9619e4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>End of Contract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Guernsey Pensions Query</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75d1e654dbf3fa84f2fd7b9dae9619e1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:52:33</sys_updated_on>
+            <value>Guernsey Pensions Query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leavers</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe9e7f0b372dc600dd95db9643990ec1</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>leavers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self-Service Access (stores only)</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba9e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>self_service_access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tax code issues</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>4</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3970aa50dbf3fa84f2fd7b9dae96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>Tax code issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HMRC Queries</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa9e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>hmrc_queries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Irish Calc</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-10-26 11:54:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed2aa9e9db4a838063b7dca0ce9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-10-26 11:54:05</sys_updated_on>
+            <value>Irish Calc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lite Profiles</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:21:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c51e614dbf3fa84f2fd7b9dae9619de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>Lite Profiles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Move to another Legal Entity</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>639d0e11db7b92c030d17dfcbf96193f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Move to another Legal Entity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Customer First</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEP Queries</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>5</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:17:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b570aa50dbf3fa84f2fd7b9dae96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:17:43</sys_updated_on>
+            <value>SEP Queries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Joiners</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-08-23 08:52:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ada1f70db704fc4f2fd7b9dae961904</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-10-26 11:54:05</sys_updated_on>
+            <value>Joiners</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maternity / Parental Leave</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-03 11:28:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fd5c859371202004ed29c9953990efa</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>maternity_parental_leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salary Sacrifice Queries</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e9e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>salary_sacrifice_queries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Term with severance agreement</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>6</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b9d0e11db7b92c030d17dfcbf96193f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Term with severance agreement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leaver</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-24 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9706ddb37c8c740440270f543990e82</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-10-26 11:54:05</sys_updated_on>
+            <value>Leaver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Starters</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be9e7f0b372dc600dd95db9643990ec1</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>new_starters</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e9e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>other_system_reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>benefits</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P11D Analysis</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>369e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2015-08-03 09:17:35</sys_updated_on>
+            <value>p11d_analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resigned – Career Development</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>7</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e39d0a11db7b92c030d17dfcbf9619df</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Resigned – Career Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>benefits</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit Cards</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>769e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2015-08-03 09:17:35</sys_updated_on>
+            <value>credit_cards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal/BTS Memo</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2018-02-08 17:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>849f5b1fdb445b8463b7dca0ce9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Legal/BTS Memo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2016-01-13 15:58:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d59570733770564050579c9953990eb0</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-08-23 08:51:35</sys_updated_on>
+            <value>offer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resigned - Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a79d0a11db7b92c030d17dfcbf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Resigned - Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Successful Submission</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>8</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-27 09:24:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b33120137582240e849304643990ebe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>Successful Submission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maternity/Paternity</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-24 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39706ddb37c8c740440270f543990e84</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Maternity/Paternity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>benefits</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b69e7f0b372dc600dd95db9643990ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2015-08-03 09:17:35</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll H/O</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2018-02-08 18:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9afe3934f089b8419baf9b7c210c73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 18:12:19</sys_updated_on>
+            <value>Payroll H/O</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resigned - Relocation</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b9d0a11db7b92c030d17dfcbf9619e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Resigned - Relocation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsuccessful Submission</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>9</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-27 09:24:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef33120137582240e849304643990ebe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:15:22</sys_updated_on>
+            <value>Unsuccessful Submission</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Childcare</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9206a10dbf3fa84f2fd7b9dae9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Childcare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manual Rerun</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1d1e654dbf3fa84f2fd7b9dae9619e3</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Manual Rerun</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Probation</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-08-23 08:51:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1caa93bcdb304fc4f2fd7b9dae961945</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 18:12:19</sys_updated_on>
+            <value>Probation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resigned – Family Reasons</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>10</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f9d0a11db7b92c030d17dfcbf9619e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Resigned – Family Reasons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefits - P11D Analysis</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>11</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59206a10dbf3fa84f2fd7b9dae9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Benefits - P11D Analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NMW</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>11</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-10-24 13:19:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e69aa3f8dbce834063b7dca0ce96195d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>NMW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reference Request</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>11</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-07-29 10:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09025757dbf0a64463b7fca0ce961925</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 18:12:19</sys_updated_on>
+            <value>Reference Request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resigned - Education</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>11</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2016-06-03 07:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef9d0a11db7b92c030d17dfcbf9619e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Resigned - Education</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefits - Credit Cards</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>12</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5206a10dbf3fa84f2fd7b9dae9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Benefits - Credit Cards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Terminate Action</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dismissed</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>12</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:19:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53e026d0dbf3fa84f2fd7b9dae9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:19:43</sys_updated_on>
+            <value>Dismissed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P45/P60</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>12</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9d1e654dbf3fa84f2fd7b9dae9619db</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>P45/P60</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sick Leave</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>12</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:21:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e051e614dbf3fa84f2fd7b9dae9619d9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 18:12:19</sys_updated_on>
+            <value>Sick Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Benefits - Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>13</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55206a10dbf3fa84f2fd7b9dae9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Benefits - Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>people_administration</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-09-03 11:30:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1664099371202004ed29c9953990e44</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 18:12:19</sys_updated_on>
+            <value>other_people_administration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prior Month Query</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>13</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-24 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd706ddb37c8c740440270f543990ea2</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Prior Month Query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Find My Shift</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>14</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1206a10dbf3fa84f2fd7b9dae9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Find My Shift</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sick Note</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>14</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-24 11:35:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d706ddb37c8c740440270f543990ea4</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Sick Note</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ebis</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>15</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51206a10dbf3fa84f2fd7b9dae9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Ebis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SMP</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>15</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-10-24 13:19:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa9aa7f8dbce834063b7dca0ce96196d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>SMP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Entity</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>16</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd206a10dbf3fa84f2fd7b9dae9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>New Entity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Staff Loans</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>16</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79d1e654dbf3fa84f2fd7b9dae9619dd</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Staff Loans</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cycle Scheme</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>17</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d206a10dbf3fa84f2fd7b9dae9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Cycle Scheme</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>17</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-03 08:52:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ad130ecdbfb7e84f2fd7b9dae9619d9</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2018-02-08 17:02:01</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>systems_reporting</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Iview Requests</label>
+            <language>en</language>
+            <name>x_spog_payroll_application</name>
+            <sequence>18</sequence>
+            <sys_created_by>steve.hardstaff</sys_created_by>
+            <sys_created_on>2017-07-02 22:16:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9206a10dbf3fa84f2fd7b9dae9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-07-02 22:16:19</sys_updated_on>
+            <value>Iview Requests</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_spog_payroll_application</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2015-08-03 09:17:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>076920553716820050579c9953990e28</sys_id>
+            <sys_mod_count>42</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_choice_x_spog_payroll_application_subcategory</sys_update_name>
+            <sys_updated_by>steve.hardstaff</sys_updated_by>
+            <sys_updated_on>2017-10-26 11:54:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

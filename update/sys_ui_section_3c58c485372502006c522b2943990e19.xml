@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Notes" section_id="3c58c485372502006c522b2943990e19" sys_domain="global" table="x_spog_payroll_application" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>4c221941376502006c522b2943990ec6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>1</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>8c221941376502006c522b2943990ec6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>cc221941376502006c522b2943990ec6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>3</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>00221941376502006c522b2943990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>40221941376502006c522b2943990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>5</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>80221941376502006c522b2943990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>6</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>c0221941376502006c522b2943990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>7</position>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 15:36:09</sys_created_on>
+            <sys_id>04221941376502006c522b2943990ec7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Payroll Activities (filtered)">50e15541376502006c522b2943990e18</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_spog_payroll_application" sys_domain="global" view="Default view">3c58c485372502006c522b2943990e19</sys_ui_section>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 15:36:09</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_spog_payroll_application</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin.lucas</sys_created_by>
+            <sys_created_on>2015-07-27 10:13:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c58c485372502006c522b2943990e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Notes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+            <sys_update_name>sys_ui_section_3c58c485372502006c522b2943990e19</sys_update_name>
+            <sys_updated_by>admin.lucas</sys_updated_by>
+            <sys_updated_on>2015-07-27 10:13:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

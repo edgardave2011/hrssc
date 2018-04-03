@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,hasLabels=true" audit="true" extends="task" label="Retail Complaints" max_length="40" name="x_spog_retail_complaints" sizeclass="62068" text_index="true" type="collection">
+        <element label="Phone Number" max_length="40" name="u_phone_number" type="ph_number"/>
+    </element>
+</database>

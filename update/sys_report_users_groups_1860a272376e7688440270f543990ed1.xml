@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="HR Advice Line" name="HR Advice Line">157b82409f011200910cf7f8677fcf78</group_id>
+        <report_id display_value="HR Case - Contact Volumes (Monthly) - Line Graph">1060a272376e7688440270f543990ed1</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2017-05-09 13:23:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1860a272376e7688440270f543990ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1060a272376e7688440270f543990ed1</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_report_users_groups_1860a272376e7688440270f543990ed1</sys_update_name>
+        <sys_updated_by>steve.hardstaff</sys_updated_by>
+        <sys_updated_on>2017-05-09 13:23:40</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>
