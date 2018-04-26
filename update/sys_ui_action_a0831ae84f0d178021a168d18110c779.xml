@@ -27,9 +27,16 @@
 current.update();
 
 var obj = new ClonePayrollProcess(),
+	num = current.number;
 	newPayroll = obj.startClone();
 gs.addInfoMessage("Clone ticket " + newPayroll.number + " created");
-g_form.setReadOnly('received_email', false);]]></script>
+g_form.setReadOnly('received_email', false);
+
+
+
+// 			var ga = new GlideAjax('InciBad');
+// 			ga.addParam('sysparm_name', 'inciBad');
+// 			ga.addParam('sysparm_textis', escalText);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -41,7 +48,7 @@ g_form.setReadOnly('received_email', false);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0831ae84f0d178021a168d18110c779</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Create Repeat Ticket</sys_name>
         <sys_overrides/>
         <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
@@ -50,7 +57,7 @@ g_form.setReadOnly('received_email', false);]]></script>
         <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
         <sys_update_name>sys_ui_action_a0831ae84f0d178021a168d18110c779</sys_update_name>
         <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-03-21 16:20:09</sys_updated_on>
+        <sys_updated_on>2018-04-26 08:49:31</sys_updated_on>
         <table>x_spog_payroll_application</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

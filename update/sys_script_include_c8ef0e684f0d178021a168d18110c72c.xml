@@ -14,6 +14,7 @@ ClonePayrollProcess.prototype = {
 	initialize: function () {
 		
 		this.newPayroll = current;
+//var num	= current.number;
 		this.payrollID = current.sys_id.toString();
 		
 		this.Payroll_TABLE = "x_spog_payroll_application";
@@ -21,16 +22,17 @@ ClonePayrollProcess.prototype = {
 	
 	startClone: function () {
 		
-		
+		this.newPayroll.work_notes = "Clone ticket created from " + num;
 		this.newPayroll.number = global.getNextObjNumberPadded();
 		this.newPayroll.active = true;
 		this.newPayroll.payroll_state = "open";
 		this.newPayroll.state = "open";
+		this.newPayroll.assigned_to = "";
 		this.newPayroll.parent = this.payrollID;
 		this.newPayroll.has_child = "false";
 		this.newPayroll.resolved_by = "";
 		this.newPayroll.resolved_at = "";
-		this.newPayroll.work_notes = "Clone ticket created";
+		//this.newPayroll.work_notes = "Clone ticket created from " + num + " yay!";
 		
 		//lastEntry = this._getLastJournalEntry(this.fcrID, "work_notes");
 		//this.newPayroll.work_notes = lastEntry + "\nTravel Request created via copy of " + this.newPayroll.parent.number;
@@ -77,7 +79,7 @@ ClonePayrollProcess.prototype = {
         <sys_created_on>2018-03-21 15:13:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c8ef0e684f0d178021a168d18110c72c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>ClonePayrollProcess</sys_name>
         <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
         <sys_policy/>
@@ -85,6 +87,6 @@ ClonePayrollProcess.prototype = {
         <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
         <sys_update_name>sys_script_include_c8ef0e684f0d178021a168d18110c72c</sys_update_name>
         <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-03-21 15:54:08</sys_updated_on>
+        <sys_updated_on>2018-04-26 09:31:28</sys_updated_on>
     </sys_script_include>
 </record_update>
