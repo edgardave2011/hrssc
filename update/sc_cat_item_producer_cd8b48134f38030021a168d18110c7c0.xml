@@ -65,6 +65,7 @@
         <table_name>x_spog_payroll_application</table_name>
         <template/>
         <type>item</type>
+        <u_available_for_country_type/>
         <u_available_for_store_type/>
         <u_engineer_hours>0</u_engineer_hours>
         <u_fujitsu_item>false</u_fujitsu_item>

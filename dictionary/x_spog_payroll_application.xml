@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true,hasLabels=true" audit="true" extends="task" label="HR Shared Services" max_length="40" name="x_spog_payroll_application" sizeclass="162768" text_index="true" type="collection">
+    <element attributes="email_client=true,hasLabels=true" audit="true" extends="task" label="HR Shared Services" max_length="40" name="x_spog_payroll_application" sizeclass="162767" text_index="true" type="collection">
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;email,ref_ac_order_by=first_name" label="Caller" max_length="32" name="caller" reference="sys_user" reference_qual="javascript:new global.SpecsaversUserUtils().getUsersByUserType(current.u_caller_type);" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
             <choice>

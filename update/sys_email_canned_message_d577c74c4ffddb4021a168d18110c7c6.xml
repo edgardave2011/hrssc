@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_canned_message">
+    <sys_email_canned_message action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <body><![CDATA[<p>${mail_script:HRSSC_Attachments}<br /><br /></p>]]></body>
+        <group display_value="ServiceNow User Admin" name="ServiceNow User Admin">27c04806378e020050579c9953990ef3</group>
+        <sys_class_name>sys_email_canned_message</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-04-26 12:48:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d577c74c4ffddb4021a168d18110c7c6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Attachements</sys_name>
+        <sys_package display_value="HR Shared Services" source="x_spog_payroll">0e9a2b7837e102006c522b2943990e21</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HR Shared Services">0e9a2b7837e102006c522b2943990e21</sys_scope>
+        <sys_update_name>sys_email_canned_message_d577c74c4ffddb4021a168d18110c7c6</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-04-26 12:53:20</sys_updated_on>
+        <title>Attachements</title>
+        <user/>
+    </sys_email_canned_message>
+</record_update>
